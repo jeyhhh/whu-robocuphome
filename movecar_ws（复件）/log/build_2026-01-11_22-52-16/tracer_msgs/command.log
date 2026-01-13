@@ -1,4 +1,0 @@
-Invoking command in '/home/jacky/movecar_ws/build/tracer_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jacky/movecar_ws/build/tracer_msgs -- -j32 -l32
-Invoked command in '/home/jacky/movecar_ws/build/tracer_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jacky/movecar_ws/build/tracer_msgs -- -j32 -l32
-Invoking command in '/home/jacky/movecar_ws/build/tracer_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jacky/movecar_ws/build/tracer_msgs
-Invoked command in '/home/jacky/movecar_ws/build/tracer_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jacky/movecar_ws/build/tracer_msgs
