@@ -1,0 +1,10 @@
+{
+  "package_name": "tracer_msgs",
+  "non_idl_tuples": [
+    "/home/jacky/movecar_ws/src/tracer_ros2-humble/tracer_msgs:msg/TracerActuatorState.msg",
+    "/home/jacky/movecar_ws/src/tracer_ros2-humble/tracer_msgs:msg/TracerLightCmd.msg",
+    "/home/jacky/movecar_ws/src/tracer_ros2-humble/tracer_msgs:msg/TracerLightState.msg",
+    "/home/jacky/movecar_ws/src/tracer_ros2-humble/tracer_msgs:msg/TracerRCState.msg",
+    "/home/jacky/movecar_ws/src/tracer_ros2-humble/tracer_msgs:msg/TracerStatus.msg"
+  ]
+}

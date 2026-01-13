@@ -1,0 +1,78 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+[0m
+In file included from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/utilities/protocol_detector.hpp:15[m[K,
+                 from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/src/utilities/protocol_detector.cpp:10[m[K:
+[01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: 没有那个文件或目录
+   24 | #include [01;31m[K"asio.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/src/async_port/async_can.cpp:10[m[K:
+[01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: 没有那个文件或目录
+   24 | #include [01;31m[K"asio.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:90：CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:104：CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o] 错误 1
+In file included from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/src/async_port/async_serial.cpp:10[m[K:
+[01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/async_port/async_serial.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: 没有那个文件或目录
+   20 | #include [01;31m[K"asio.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:76：CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o] 错误 1
+In file included from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/agilex_base.hpp:21[m[K,
+                 from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/bunker_base.hpp:19[m[K,
+                 from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/src/mobile_robot/bunker_robot.cpp:11[m[K:
+[01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: 没有那个文件或目录
+   24 | #include [01;31m[K"asio.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/agilex_base.hpp:21[m[K,
+                 from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/tracer_base.hpp:19[m[K,
+                 from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/src/mobile_robot/tracer_robot.cpp:11[m[K:
+[01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: 没有那个文件或目录
+   24 | #include [01;31m[K"asio.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/agilex_base.hpp:21[m[K,
+                 from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/hunter_base.hpp:19[m[K,
+                 from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/src/mobile_robot/hunter_robot.cpp:11[m[K:
+[01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: 没有那个文件或目录
+   24 | #include [01;31m[K"asio.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/agilex_base.hpp:21[m[K,
+                 from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/scout_base.hpp:19[m[K,
+                 from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/src/mobile_robot/scout_robot.cpp:11[m[K:
+[01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: 没有那个文件或目录
+   24 | #include [01;31m[K"asio.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:146：CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o] 错误 1
+gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:132：CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o] 错误 1
+gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:118：CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o] 错误 1
+gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:188：CMakeFiles/ugv_sdk.dir/src/mobile_robot/tracer_robot.cpp.o] 错误 1
+In file included from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/agilex_base.hpp:21[m[K,
+                 from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/titan_base.hpp:18[m[K,
+                 from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/mobile_robot/titan_robot.hpp:15[m[K,
+                 from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/src/mobile_robot/titan_robot.cpp:9[m[K:
+[01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: 没有那个文件或目录
+   24 | #include [01;31m[K"asio.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/agilex_base.hpp:21[m[K,
+                 from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/ranger_base.hpp:10[m[K,
+                 from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/mobile_robot/ranger_robot.hpp:15[m[K,
+                 from [01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/src/mobile_robot/ranger_robot.cpp:9[m[K:
+[01m[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: 没有那个文件或目录
+   24 | #include [01;31m[K"asio.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:174：CMakeFiles/ugv_sdk.dir/src/mobile_robot/titan_robot.cpp.o] 错误 1
+gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:160：CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:209：CMakeFiles/ugv_sdk.dir/all] 错误 2
+gmake: *** [Makefile:156：all] 错误 2
