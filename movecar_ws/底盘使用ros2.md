@@ -80,6 +80,8 @@ cd ~/movecar_ws/src/ugv_sdk-main/scripts/
 bash bringup_can2usb_500k.bash
 ```
 
+如果显示"busy"不用担心，说明已经打开了
+
 ## 使用ros2控制
 
 进入`movecar_ws`文件夹，打开终端输入
