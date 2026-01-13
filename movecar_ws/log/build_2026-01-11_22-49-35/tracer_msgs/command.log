@@ -1,0 +1,1 @@
+Invoking command in '/home/jacky/movecar_ws/build/tracer_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jacky/movecar_ws/src/tracer_ros2-humble/tracer_msgs -DCMAKE_INSTALL_PREFIX=/home/jacky/movecar_ws/install/tracer_msgs

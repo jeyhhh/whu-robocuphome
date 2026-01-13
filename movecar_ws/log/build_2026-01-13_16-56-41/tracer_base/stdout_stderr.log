@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target tracer_base_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/tracer_base_node.dir/src/tracer_base_ros.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/tracer_base_node.dir/src/tracer_base_node.cpp.o[0m
+In file included from [01m[K/home/jacky/movecar_ws/src/tracer_ros2-humble/tracer_base/src/tracer_base_ros.cpp:12[m[K:
+/home/jacky/movecar_ws/src/tracer_ros2-humble/tracer_base/include/tracer_base/tracer_messenger.hpp: In instantiation of ‘[01m[Kvoid westonrobot::TracerMessenger<TracerType>::SetTracerMotionCommand(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr) [with TracerType = westonrobot::TracerRobot; geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr = std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >][m[K’:
+[01m[K/home/jacky/movecar_ws/src/tracer_ros2-humble/tracer_base/include/tracer_base/tracer_messenger.hpp:185:7:[m[K   required from ‘[01m[Kvoid westonrobot::TracerMessenger<TracerType>::TwistCmdCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr) [with TracerType = westonrobot::TracerRobot; geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr = std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >][m[K’
+[01m[K/home/jacky/movecar_ws/src/tracer_ros2-humble/tracer_base/include/tracer_base/tracer_messenger.hpp:58:19:[m[K   required from ‘[01m[Kvoid westonrobot::TracerMessenger<TracerType>::SetupSubscription() [with TracerType = westonrobot::TracerRobot][m[K’
+[01m[K/home/jacky/movecar_ws/src/tracer_ros2-humble/tracer_base/src/tracer_base_ros.cpp:144:33:[m[K   required from here
+[01m[K/home/jacky/movecar_ws/src/tracer_ros2-humble/tracer_base/include/tracer_base/tracer_messenger.hpp:194:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kwestonrobot::TracerRobot::SetMotionCommand(geometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type&, geometry_msgs::msg::Vector3_<std::allocator<void> >::_y_type&, geometry_msgs::msg::Vector3_<std::allocator<void> >::_z_type&)[m[K’
+  194 |     [01;31m[Ktracer_->SetMotionCommand(msg->linear.x, msg->linear.y, msg->angular.z)[m[K;//TODO: 加入横向速度
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jacky/movecar_ws/src/tracer_ros2-humble/tracer_base/include/tracer_base/tracer_base_ros.hpp:18[m[K,
+                 from [01m[K/home/jacky/movecar_ws/src/tracer_ros2-humble/tracer_base/src/tracer_base_ros.cpp:10[m[K:
+[01m[K/home/jacky/movecar_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp:29:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual void westonrobot::TracerRobot::SetMotionCommand(double, double)[m[K’
+   29 |   void [01;36m[KSetMotionCommand[m[K(double linear_vel, double angular_vel) override;
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jacky/movecar_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp:29:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+gmake[2]: *** [CMakeFiles/tracer_base_node.dir/build.make:76：CMakeFiles/tracer_base_node.dir/src/tracer_base_ros.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/tracer_base_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,184 @@
+[0.000000] (-) TimerEvent: {}
+[0.000182] (tracer_msgs) JobQueued: {'identifier': 'tracer_msgs', 'dependencies': OrderedDict()}
+[0.000207] (ugv_sdk) JobQueued: {'identifier': 'ugv_sdk', 'dependencies': OrderedDict()}
+[0.000219] (tracer_base) JobQueued: {'identifier': 'tracer_base', 'dependencies': OrderedDict([('tracer_msgs', '/home/jacky/movecar_ws/install/tracer_msgs'), ('ugv_sdk', '/home/jacky/movecar_ws/install/ugv_sdk')])}
+[0.000235] (tracer_msgs) JobStarted: {'identifier': 'tracer_msgs'}
+[0.004285] (ugv_sdk) JobStarted: {'identifier': 'ugv_sdk'}
+[0.006625] (tracer_msgs) JobProgress: {'identifier': 'tracer_msgs', 'progress': 'cmake'}
+[0.006875] (tracer_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/jacky/movecar_ws/src/tracer_ros2-humble/tracer_msgs', '-DCMAKE_INSTALL_PREFIX=/home/jacky/movecar_ws/install/tracer_msgs'], 'cwd': '/home/jacky/movecar_ws/build/tracer_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'jacky'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jacky'), ('OLDPWD', '/home/jacky'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2019'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jacky'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jacky'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/jacky/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jacky-CANGLONG-Series:@/tmp/.ICE-unix/1768,unix/jacky-CANGLONG-Series:/tmp/.ICE-unix/1768'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eff170ea_b423_4083_994d_7c54a750d5a7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jacky/movecar_ws/build/tracer_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.009038] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'cmake'}
+[0.009294] (ugv_sdk) Command: {'cmd': ['/usr/bin/cmake', '/home/jacky/movecar_ws/src/ugv_sdk-main', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/jacky/movecar_ws/install/ugv_sdk'], 'cwd': '/home/jacky/movecar_ws/build/ugv_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'jacky'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jacky'), ('OLDPWD', '/home/jacky'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2019'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jacky'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jacky'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/jacky/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jacky-CANGLONG-Series:@/tmp/.ICE-unix/1768,unix/jacky-CANGLONG-Series:/tmp/.ICE-unix/1768'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eff170ea_b423_4083_994d_7c54a750d5a7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jacky/movecar_ws/build/ugv_sdk'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.099429] (-) TimerEvent: {}
+[0.106693] (ugv_sdk) StdoutLine: {'line': b'-- The C compiler identification is GNU 12.3.0\n'}
+[0.106853] (tracer_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 12.3.0\n'}
+[0.162867] (tracer_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.163883] (ugv_sdk) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.168273] (ugv_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.168414] (tracer_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199509] (-) TimerEvent: {}
+[0.205235] (tracer_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.206486] (ugv_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.209736] (tracer_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.210009] (tracer_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.210399] (tracer_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.210552] (ugv_sdk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.210688] (ugv_sdk) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.210861] (ugv_sdk) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.212022] (tracer_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.212125] (ugv_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.244647] (ugv_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.247920] (ugv_sdk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.248065] (ugv_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.248274] (ugv_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.248681] (ugv_sdk) StdoutLine: {'line': b'-- Build package with cmake\n'}
+[0.248728] (ugv_sdk) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[0.248750] (ugv_sdk) StdoutLine: {'line': b'-- Tests will not be built\n'}
+[0.249218] (tracer_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.251047] (ugv_sdk) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.253494] (tracer_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.253631] (tracer_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.253840] (tracer_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.256244] (tracer_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.287745] (ugv_sdk) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.287850] (ugv_sdk) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.299556] (-) TimerEvent: {}
+[0.322504] (ugv_sdk) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.322965] (ugv_sdk) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.323278] (tracer_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.324176] (ugv_sdk) StdoutLine: {'line': b"-- Project will be installed to /home/jacky/movecar_ws/install/ugv_sdk with 'make install'\n"}
+[0.324252] (ugv_sdk) StdoutLine: {'line': b'--  - To install LIB components to /home/jacky/movecar_ws/install/ugv_sdk/lib\n'}
+[0.324274] (ugv_sdk) StdoutLine: {'line': b'--  - To install BIN components to /home/jacky/movecar_ws/install/ugv_sdk/bin\n'}
+[0.324292] (ugv_sdk) StdoutLine: {'line': b'--  - To install INCLUDE components to /home/jacky/movecar_ws/install/ugv_sdk/include\n'}
+[0.324310] (ugv_sdk) StdoutLine: {'line': b'--  - To install CMAKE components to /home/jacky/movecar_ws/install/ugv_sdk/share/cmake/ugv_sdk\n'}
+[0.328170] (ugv_sdk) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.333615] (ugv_sdk) StdoutLine: {'line': b'-- Generating done\n'}
+[0.334068] (ugv_sdk) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[0.334123] (ugv_sdk) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[0.334148] (ugv_sdk) StderrLine: {'line': b'\n'}
+[0.334169] (ugv_sdk) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[0.334188] (ugv_sdk) StderrLine: {'line': b'\n'}
+[0.334208] (ugv_sdk) StderrLine: {'line': b'\x1b[0m\n'}
+[0.335358] (ugv_sdk) StdoutLine: {'line': b'-- Build files have been written to: /home/jacky/movecar_ws/build/ugv_sdk\n'}
+[0.337620] (ugv_sdk) CommandEnded: {'returncode': 0}
+[0.337931] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'build'}
+[0.338427] (ugv_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jacky/movecar_ws/build/ugv_sdk', '--', '-j32', '-l32'], 'cwd': '/home/jacky/movecar_ws/build/ugv_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'jacky'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jacky'), ('OLDPWD', '/home/jacky'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2019'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jacky'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jacky'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/jacky/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jacky-CANGLONG-Series:@/tmp/.ICE-unix/1768,unix/jacky-CANGLONG-Series:/tmp/.ICE-unix/1768'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eff170ea_b423_4083_994d_7c54a750d5a7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jacky/movecar_ws/build/ugv_sdk'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.361278] (ugv_sdk) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o\x1b[0m\n'}
+[0.361455] (ugv_sdk) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o\x1b[0m\n'}
+[0.361501] (ugv_sdk) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v2/agilex_msg_parser_v2.c.o\x1b[0m\n'}
+[0.361536] (ugv_sdk) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/tracer_robot.cpp.o\x1b[0m\n'}
+[0.361566] (ugv_sdk) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v1/agilex_msg_parser_v1.c.o\x1b[0m\n'}
+[0.361596] (ugv_sdk) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o\x1b[0m\n'}
+[0.361642] (ugv_sdk) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o\x1b[0m\n'}
+[0.361685] (ugv_sdk) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o\x1b[0m\n'}
+[0.361711] (ugv_sdk) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/protocol_v2/protocol_v2_parser.cpp.o\x1b[0m\n'}
+[0.361735] (ugv_sdk) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/titan_robot.cpp.o\x1b[0m\n'}
+[0.361759] (ugv_sdk) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o\x1b[0m\n'}
+[0.361784] (ugv_sdk) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o\x1b[0m\n'}
+[0.376609] (tracer_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.393850] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/utilities/protocol_detector.hpp:15\x1b[m\x1b[K,\n'}
+[0.394093] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/src/utilities/protocol_detector.cpp:10\x1b[m\x1b[K:\n'}
+[0.394130] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/async_port/async_can.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[0.394161] (ugv_sdk) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.394202] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.394226] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.394251] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/src/async_port/async_can.cpp:10\x1b[m\x1b[K:\n'}
+[0.394275] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/async_port/async_can.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[0.394298] (ugv_sdk) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.394319] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.394340] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.395291] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:90\xef\xbc\x9aCMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.395323] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[0.395361] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:104\xef\xbc\x9aCMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.398966] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/src/async_port/async_serial.cpp:10\x1b[m\x1b[K:\n'}
+[0.399001] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/async_port/async_serial.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[0.399031] (ugv_sdk) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.399055] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.399078] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.399615] (-) TimerEvent: {}
+[0.399717] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:76\xef\xbc\x9aCMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.406283] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/agilex_base.hpp:21\x1b[m\x1b[K,\n'}
+[0.406497] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/bunker_base.hpp:19\x1b[m\x1b[K,\n'}
+[0.406571] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/src/mobile_robot/bunker_robot.cpp:11\x1b[m\x1b[K:\n'}
+[0.406616] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/async_port/async_can.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[0.406638] (ugv_sdk) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.406662] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.406687] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.406709] (tracer_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.406744] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/agilex_base.hpp:21\x1b[m\x1b[K,\n'}
+[0.406767] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/tracer_base.hpp:19\x1b[m\x1b[K,\n'}
+[0.406791] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/src/mobile_robot/tracer_robot.cpp:11\x1b[m\x1b[K:\n'}
+[0.406811] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/async_port/async_can.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[0.406831] (ugv_sdk) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.406851] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.406871] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/agilex_base.hpp:21\x1b[m\x1b[K,\n'}
+[0.406891] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/hunter_base.hpp:19\x1b[m\x1b[K,\n'}
+[0.406911] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/src/mobile_robot/hunter_robot.cpp:11\x1b[m\x1b[K:\n'}
+[0.406931] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/async_port/async_can.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[0.406951] (ugv_sdk) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.406971] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.406990] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/agilex_base.hpp:21\x1b[m\x1b[K,\n'}
+[0.407010] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/scout_base.hpp:19\x1b[m\x1b[K,\n'}
+[0.407031] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/src/mobile_robot/scout_robot.cpp:11\x1b[m\x1b[K:\n'}
+[0.407051] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/async_port/async_can.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[0.407072] (ugv_sdk) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.407092] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.407112] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.407131] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.407152] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.407343] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:146\xef\xbc\x9aCMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.407428] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:132\xef\xbc\x9aCMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.407464] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:118\xef\xbc\x9aCMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.407510] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:188\xef\xbc\x9aCMakeFiles/ugv_sdk.dir/src/mobile_robot/tracer_robot.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.407862] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/agilex_base.hpp:21\x1b[m\x1b[K,\n'}
+[0.407915] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/titan_base.hpp:18\x1b[m\x1b[K,\n'}
+[0.407940] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/mobile_robot/titan_robot.hpp:15\x1b[m\x1b[K,\n'}
+[0.407962] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/src/mobile_robot/titan_robot.cpp:9\x1b[m\x1b[K:\n'}
+[0.407987] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/async_port/async_can.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[0.408013] (ugv_sdk) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.408037] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.408061] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.408084] (ugv_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/agilex_base.hpp:21\x1b[m\x1b[K,\n'}
+[0.408106] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/robot_base/ranger_base.hpp:10\x1b[m\x1b[K,\n'}
+[0.408126] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/mobile_robot/ranger_robot.hpp:15\x1b[m\x1b[K,\n'}
+[0.408146] (ugv_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/src/mobile_robot/ranger_robot.cpp:9\x1b[m\x1b[K:\n'}
+[0.408169] (ugv_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacky/movecar_ws/src/ugv_sdk-main/include/ugv_sdk/details/async_port/async_can.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kasio.hpp: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[0.408191] (ugv_sdk) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"asio.hpp"\x1b[m\x1b[K\n'}
+[0.408212] (ugv_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.408232] (ugv_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[0.408594] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:174\xef\xbc\x9aCMakeFiles/ugv_sdk.dir/src/mobile_robot/titan_robot.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.408662] (ugv_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:160\xef\xbc\x9aCMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.409852] (tracer_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.414843] (tracer_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.421967] (tracer_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.430829] (ugv_sdk) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:209\xef\xbc\x9aCMakeFiles/ugv_sdk.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[0.430921] (tracer_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.431033] (ugv_sdk) StderrLine: {'line': b'gmake: *** [Makefile:156\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[0.432598] (ugv_sdk) CommandEnded: {'returncode': 2}
+[0.438671] (tracer_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.442956] (tracer_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.443547] (ugv_sdk) JobEnded: {'identifier': 'ugv_sdk', 'rc': 2}
+[0.499733] (-) TimerEvent: {}
+[0.578609] (tracer_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.599821] (-) TimerEvent: {}
+[0.700025] (-) TimerEvent: {}
+[0.736023] (tracer_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.797785] (tracer_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800130] (-) TimerEvent: {}
+[0.808613] (tracer_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[0.809492] (tracer_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.821635] (tracer_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[0.821786] (tracer_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.821869] (tracer_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.821942] (tracer_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.831790] (tracer_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[0.852971] (tracer_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.864880] (tracer_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.865849] (tracer_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.866354] (tracer_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.867308] (tracer_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.881126] (tracer_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[0.885418] (tracer_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/jacky/movecar_ws/build/tracer_msgs\n'}
+[0.889913] (tracer_msgs) JobEnded: {'identifier': 'tracer_msgs', 'rc': 'SIGINT'}
+[0.900256] (-) TimerEvent: {}
+[0.900614] (tracer_base) JobSkipped: {'identifier': 'tracer_base'}
+[0.900628] (-) EventReactorShutdown: {}

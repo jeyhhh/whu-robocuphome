@@ -1,0 +1,303 @@
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  3%] Built target ament_cmake_python_copy_tracer_msgs
+running egg_info
+creating tracer_msgs.egg-info
+writing tracer_msgs.egg-info/PKG-INFO
+writing dependency_links to tracer_msgs.egg-info/dependency_links.txt
+writing top-level names to tracer_msgs.egg-info/top_level.txt
+writing manifest file 'tracer_msgs.egg-info/SOURCES.txt'
+reading manifest file 'tracer_msgs.egg-info/SOURCES.txt'
+writing manifest file 'tracer_msgs.egg-info/SOURCES.txt'
+[  3%] Built target ament_cmake_python_build_tracer_msgs_egg
+[  3%] Built target tracer_msgs__cpp
+[  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 12%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracer_msgs/msg/detail/tracer_status__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracer_msgs/msg/detail/tracer_rc_state__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracer_msgs/msg/detail/tracer_actuator_state__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracer_msgs/msg/detail/tracer_light_cmd__functions.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracer_msgs/msg/detail/tracer_light_state__functions.c.o[0m
+[ 17%] [32m[1mLinking C shared library libtracer_msgs__rosidl_generator_c.so[0m
+[ 17%] Built target tracer_msgs__rosidl_generator_c
+[ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracer_msgs/msg/tracer_light_cmd__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracer_msgs/msg/tracer_rc_state__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracer_msgs/msg/tracer_status__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracer_msgs/msg/tracer_light_state__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracer_msgs/msg/tracer_actuator_state__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracer_msgs/msg/detail/dds_fastrtps/tracer_status__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracer_msgs/msg/detail/dds_fastrtps/tracer_actuator_state__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracer_msgs/msg/detail/dds_fastrtps/tracer_light_cmd__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracer_msgs/msg/detail/dds_fastrtps/tracer_light_state__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracer_msgs/msg/detail/dds_fastrtps/tracer_rc_state__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracer_msgs/msg/detail/tracer_light_cmd__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracer_msgs/msg/detail/tracer_light_state__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracer_msgs/msg/detail/tracer_status__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracer_msgs/msg/detail/tracer_rc_state__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracer_msgs/msg/detail/tracer_actuator_state__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tracer_msgs/msg/tracer_rc_state__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tracer_msgs/msg/tracer_status__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tracer_msgs/msg/tracer_light_cmd__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tracer_msgs/msg/tracer_light_state__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tracer_msgs/msg/tracer_actuator_state__type_support.cpp.o[0m
+[ 55%] [32m[1mLinking CXX shared library libtracer_msgs__rosidl_typesupport_c.so[0m
+[ 60%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tracer_msgs/msg/detail/tracer_light_state__type_support.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tracer_msgs/msg/detail/tracer_light_cmd__type_support.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tracer_msgs/msg/detail/tracer_rc_state__type_support.c.o[0m
+[ 61%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tracer_msgs/msg/detail/tracer_actuator_state__type_support.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tracer_msgs/msg/detail/tracer_status__type_support.c.o[0m
+[ 63%] Built target tracer_msgs__rosidl_typesupport_c
+[ 65%] [32m[1mLinking C shared library libtracer_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tracer_msgs/msg/detail/tracer_actuator_state__type_support_c.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tracer_msgs/msg/detail/tracer_light_state__type_support_c.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tracer_msgs/msg/detail/tracer_light_cmd__type_support_c.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tracer_msgs/msg/detail/tracer_status__type_support_c.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tracer_msgs/msg/detail/tracer_rc_state__type_support_c.cpp.o[0m
+[ 74%] [32m[1mLinking CXX shared library libtracer_msgs__rosidl_typesupport_cpp.so[0m
+[ 74%] Built target tracer_msgs__rosidl_typesupport_introspection_c
+[ 74%] Built target tracer_msgs__rosidl_typesupport_cpp
+[ 76%] [32m[1mLinking CXX shared library libtracer_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 77%] [32m[1mLinking CXX shared library libtracer_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 77%] Built target tracer_msgs__rosidl_typesupport_introspection_cpp
+[ 77%] Built target tracer_msgs__rosidl_typesupport_fastrtps_cpp
+[ 79%] [32m[1mLinking CXX shared library libtracer_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 79%] Built target tracer_msgs__rosidl_typesupport_fastrtps_c
+[ 79%] Built target tracer_msgs
+[ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 80%] Built target tracer_msgs__py
+[ 84%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_generator_py.dir/rosidl_generator_py/tracer_msgs/msg/_tracer_actuator_state_s.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_generator_py.dir/rosidl_generator_py/tracer_msgs/msg/_tracer_light_cmd_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_generator_py.dir/rosidl_generator_py/tracer_msgs/msg/_tracer_rc_state_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_generator_py.dir/rosidl_generator_py/tracer_msgs/msg/_tracer_light_state_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_generator_py.dir/rosidl_generator_py/tracer_msgs/msg/_tracer_status_s.c.o[0m
+[ 90%] [32m[1mLinking C shared library rosidl_generator_py/tracer_msgs/libtracer_msgs__rosidl_generator_py.so[0m
+[ 90%] Built target tracer_msgs__rosidl_generator_py
+[ 92%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/tracer_msgs/tracer_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/tracer_msgs/tracer_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/tracer_msgs/tracer_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target tracer_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target tracer_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target tracer_msgs__rosidl_typesupport_c__pyext
+-- Install configuration: ""
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/ament_index/resource_index/rosidl_interfaces/tracer_msgs
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_status.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_rc_state.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_actuator_state.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_state.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__functions.c
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__functions.c
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__functions.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__functions.c
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__type_support.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__type_support.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__functions.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__functions.c
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__functions.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__struct.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__struct.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__type_support.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__type_support.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__functions.c
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__functions.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__functions.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__struct.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__type_support.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__struct.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__struct.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_cmd.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/environment/library_path.sh
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/environment/library_path.dsv
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_generator_c.so
+-- Set runtime path of "/home/jacky/movecar_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs
+-- Up-to-date: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/jacky/movecar_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs
+-- Up-to-date: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_rc_state.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_state.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_cmd.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_actuator_state.hpp
+-- Up-to-date: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__struct.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__builder.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__type_support.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__type_support.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__builder.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__type_support.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__traits.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__traits.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__struct.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__struct.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__traits.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__builder.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__struct.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__builder.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__type_support.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__builder.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__type_support.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__traits.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__struct.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__traits.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_status.hpp
+-- Up-to-date: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs
+-- Up-to-date: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/dds_fastrtps
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/jacky/movecar_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs
+-- Up-to-date: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__type_support.c
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__type_support.c
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_introspection_c.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__type_support.c
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_introspection_c.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__type_support.c
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__type_support.c
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__rosidl_typesupport_introspection_c.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__rosidl_typesupport_introspection_c.h
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/jacky/movecar_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/home/jacky/movecar_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs
+-- Up-to-date: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg
+-- Up-to-date: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__type_support.cpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__type_support.cpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__type_support.cpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__type_support.cpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__type_support.cpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/jacky/movecar_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/jacky/movecar_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/environment/pythonpath.sh
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/environment/pythonpath.dsv
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.1.0-py3.10.egg-info
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.1.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/libtracer_msgs__rosidl_generator_py.so
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/__init__.py
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_state.py
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_actuator_state_s.c
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_cmd.py
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_state_s.c
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_status.py
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_rc_state.py
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_rc_state_s.c
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_status_s.c
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_actuator_state.py
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/__init__.py
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_cmd_s.c
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+Listing '/home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs'...
+Compiling '/home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/__init__.py'...
+Listing '/home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg'...
+Compiling '/home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/__init__.py'...
+Compiling '/home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_actuator_state.py'...
+Compiling '/home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_cmd.py'...
+Compiling '/home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_state.py'...
+Compiling '/home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_rc_state.py'...
+Compiling '/home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_status.py'...
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_generator_py.so
+-- Set runtime path of "/home/jacky/movecar_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_generator_py.so" to ""
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerActuatorState.idl
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightCmd.idl
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightState.idl
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerRCState.idl
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerStatus.idl
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerActuatorState.msg
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightCmd.msg
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightState.msg
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerRCState.msg
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerStatus.msg
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/ament_index/resource_index/package_run_dependencies/tracer_msgs
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/ament_index/resource_index/parent_prefix_path/tracer_msgs
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/environment/ament_prefix_path.dsv
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/environment/path.sh
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/environment/path.dsv
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/local_setup.bash
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/local_setup.sh
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/local_setup.zsh
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/local_setup.dsv
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/package.dsv
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/ament_index/resource_index/packages/tracer_msgs
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgsConfig.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgsConfig-version.cmake
+-- Installing: /home/jacky/movecar_ws/install/tracer_msgs/share/tracer_msgs/package.xml

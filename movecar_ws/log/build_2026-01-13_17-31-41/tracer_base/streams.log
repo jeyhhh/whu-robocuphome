@@ -1,0 +1,29 @@
+[0.006s] Invoking command in '/home/jacky/movecar_ws/build/tracer_base': AMENT_PREFIX_PATH=/home/jacky/movecar_ws/install/tracer_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/jacky/movecar_ws/install/ugv_sdk:/home/jacky/movecar_ws/install/tracer_msgs LD_LIBRARY_PATH=/home/jacky/movecar_ws/install/tracer_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/jacky/movecar_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/jacky/movecar_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/jacky/movecar_ws/install/ugv_sdk/share /usr/bin/cmake --build /home/jacky/movecar_ws/build/tracer_base -- -j32 -l32
+[0.028s] [35m[1mConsolidate compiler generated dependencies of target tracer_base_node[0m
+[0.039s] [ 33%] [32mBuilding CXX object CMakeFiles/tracer_base_node.dir/src/tracer_base_ros.cpp.o[0m
+[6.125s] [ 66%] [32m[1mLinking CXX executable tracer_base_node[0m
+[6.443s] [100%] Built target tracer_base_node
+[6.448s] Invoked command in '/home/jacky/movecar_ws/build/tracer_base' returned '0': AMENT_PREFIX_PATH=/home/jacky/movecar_ws/install/tracer_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/jacky/movecar_ws/install/ugv_sdk:/home/jacky/movecar_ws/install/tracer_msgs LD_LIBRARY_PATH=/home/jacky/movecar_ws/install/tracer_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/jacky/movecar_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/jacky/movecar_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/jacky/movecar_ws/install/ugv_sdk/share /usr/bin/cmake --build /home/jacky/movecar_ws/build/tracer_base -- -j32 -l32
+[6.449s] Invoking command in '/home/jacky/movecar_ws/build/tracer_base': AMENT_PREFIX_PATH=/home/jacky/movecar_ws/install/tracer_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/jacky/movecar_ws/install/ugv_sdk:/home/jacky/movecar_ws/install/tracer_msgs LD_LIBRARY_PATH=/home/jacky/movecar_ws/install/tracer_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/jacky/movecar_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/jacky/movecar_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/jacky/movecar_ws/install/ugv_sdk/share /usr/bin/cmake --install /home/jacky/movecar_ws/build/tracer_base
+[6.452s] -- Install configuration: ""
+[6.452s] -- Installing: /home/jacky/movecar_ws/install/tracer_base/lib/tracer_base/tracer_base_node
+[6.455s] -- Set runtime path of "/home/jacky/movecar_ws/install/tracer_base/lib/tracer_base/tracer_base_node" to ""
+[6.455s] -- Up-to-date: /home/jacky/movecar_ws/install/tracer_base/share/tracer_base//launch
+[6.456s] -- Up-to-date: /home/jacky/movecar_ws/install/tracer_base/share/tracer_base//launch/tracer_base.launch.py
+[6.456s] -- Up-to-date: /home/jacky/movecar_ws/install/tracer_base/share/tracer_base//launch/tracer_mini_base.launch.py
+[6.456s] -- Up-to-date: /home/jacky/movecar_ws/install/tracer_base/share/ament_index/resource_index/package_run_dependencies/tracer_base
+[6.456s] -- Up-to-date: /home/jacky/movecar_ws/install/tracer_base/share/ament_index/resource_index/parent_prefix_path/tracer_base
+[6.456s] -- Up-to-date: /home/jacky/movecar_ws/install/tracer_base/share/tracer_base/environment/ament_prefix_path.sh
+[6.456s] -- Up-to-date: /home/jacky/movecar_ws/install/tracer_base/share/tracer_base/environment/ament_prefix_path.dsv
+[6.456s] -- Up-to-date: /home/jacky/movecar_ws/install/tracer_base/share/tracer_base/environment/path.sh
+[6.456s] -- Up-to-date: /home/jacky/movecar_ws/install/tracer_base/share/tracer_base/environment/path.dsv
+[6.456s] -- Up-to-date: /home/jacky/movecar_ws/install/tracer_base/share/tracer_base/local_setup.bash
+[6.456s] -- Up-to-date: /home/jacky/movecar_ws/install/tracer_base/share/tracer_base/local_setup.sh
+[6.456s] -- Up-to-date: /home/jacky/movecar_ws/install/tracer_base/share/tracer_base/local_setup.zsh
+[6.456s] -- Up-to-date: /home/jacky/movecar_ws/install/tracer_base/share/tracer_base/local_setup.dsv
+[6.456s] -- Installing: /home/jacky/movecar_ws/install/tracer_base/share/tracer_base/package.dsv
+[6.456s] -- Up-to-date: /home/jacky/movecar_ws/install/tracer_base/share/ament_index/resource_index/packages/tracer_base
+[6.456s] -- Up-to-date: /home/jacky/movecar_ws/install/tracer_base/share/tracer_base/cmake/tracer_baseConfig.cmake
+[6.456s] -- Up-to-date: /home/jacky/movecar_ws/install/tracer_base/share/tracer_base/cmake/tracer_baseConfig-version.cmake
+[6.456s] -- Up-to-date: /home/jacky/movecar_ws/install/tracer_base/share/tracer_base/package.xml
+[6.457s] Invoked command in '/home/jacky/movecar_ws/build/tracer_base' returned '0': AMENT_PREFIX_PATH=/home/jacky/movecar_ws/install/tracer_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/jacky/movecar_ws/install/ugv_sdk:/home/jacky/movecar_ws/install/tracer_msgs LD_LIBRARY_PATH=/home/jacky/movecar_ws/install/tracer_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/jacky/movecar_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/jacky/movecar_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/home/jacky/movecar_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/jacky/movecar_ws/install/ugv_sdk/share /usr/bin/cmake --install /home/jacky/movecar_ws/build/tracer_base
