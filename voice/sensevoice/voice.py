@@ -1,6 +1,6 @@
 from funasr import AutoModel
 import os
-chunk_size = [0, 10, 5]  # [0, 10, 5] 600ms, [0, 8, 4] 480ms
+chunk_size = [0, 20, 10]  # [0, 10, 5] 600ms, [0, 8, 4] 480ms
 encoder_chunk_look_back = 4  # number of chunks to lookback for encoder self-attention
 decoder_chunk_look_back = 1  # number of encoder chunks to lookback for decoder cross-attention
 
@@ -39,32 +39,55 @@ total_samples = 0
 cache = {}
 
 try:
+    #开始计时
     while True:
-        # 读音频帧
-        data = stream.read(CHUNK, exception_on_overflow=False)
-        # bytes -> int16 -> float32 (-1.0 ~ 1.0)
-        samples = np.frombuffer(data, dtype=np.int16).astype(np.float32) / 32768.0
-        buffers.append(samples)
-        total_samples += samples.shape[0]
-
+        start_time = time.time()
         total_res = []
 
-        # 当累积样本达到一个块长度时，拼接并送入模型
-        if total_samples >= chunk_stride:
-            big = np.concatenate(buffers, axis=0)
-            piece = big[:chunk_stride]
-            remaining = big[chunk_stride:]
+        while time.time() - start_time < 10:  # 运行10秒后停止
+            # 读音频帧
+            data = stream.read(CHUNK, exception_on_overflow=False)
+            # bytes -> int16 -> float32 (-1.0 ~ 1.0)
+            samples = np.frombuffer(data, dtype=np.int16).astype(np.float32) / 32768.0
+            buffers.append(samples)
+            total_samples += samples.shape[0]
 
-            # 把剩余样本保留到 buffers
-            buffers = [remaining] if remaining.size > 0 else []
-            total_samples = remaining.size
+            # 当累积样本达到一个块长度时，拼接并送入模型
+            if total_samples >= chunk_stride:
+                big = np.concatenate(buffers, axis=0)
+                piece = big[:chunk_stride]
+                remaining = big[chunk_stride:]
 
-            # 调用模型进行流式识别（保持 cache）
-            res = model.generate(input=piece, cache=cache, chunk_size=chunk_size,
-                                 encoder_chunk_look_back=encoder_chunk_look_back,
-                                 decoder_chunk_look_back=decoder_chunk_look_back)
-            total_res.append(res)
-            print(res)
+                # 把剩余样本保留到 buffers
+                buffers = [remaining] if remaining.size > 0 else []
+                total_samples = remaining.size
+
+                # 调用模型进行流式识别（保持 cache）
+                res = model.generate(input=piece, cache=cache, chunk_size=chunk_size,
+                                    encoder_chunk_look_back=encoder_chunk_look_back,
+                                    decoder_chunk_look_back=decoder_chunk_look_back)
+
+                # 兼容不同返回类型：dict / list / str
+                txt = ''
+                if isinstance(res, dict):
+                    txt = res.get('text', '')
+                elif isinstance(res, list):
+                    parts = []
+                    for it in res:
+                        if isinstance(it, dict):
+                            parts.append(it.get('text', ''))
+                        else:
+                            parts.append(str(it))
+                    txt = ''.join(parts)
+                else:
+                    txt = str(res)
+
+                if txt:
+                    total_res.append(txt)
+                    print("片段识别:", txt)
+        
+        final_text = ''.join(total_res)
+        print({'text': final_text})
 
 except KeyboardInterrupt:
     print("停止识别，关闭音频流...")
