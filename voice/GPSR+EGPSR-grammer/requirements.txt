@@ -1,0 +1,6 @@
+# GPSR语音集成项目依赖
+numpy>=1.21.0
+pyaudio>=0.2.11
+funasr>=0.1.0
+xmltodict>=0.13.0
+regex>=2022.3.15
