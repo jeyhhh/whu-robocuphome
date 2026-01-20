@@ -1,0 +1,1 @@
+from sensevoice.voiceV2 import voice
