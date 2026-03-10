@@ -11,9 +11,11 @@ class MoveNode(Node):
         super().__init__('move_node')
         self.publisher_ = self.create_publisher(Twist, '/cmd_vel', 10)
         self.get_logger().info('MoveNode has been started.')
-        self.destination = {'x':0.0,'y':0.0} 
-        # 存储当前位姿（由 odom_callback 更新）
-        self.current_position = {'x': 0.0, 'y': 0.0, 'yaw': 0.0}
+
+        self.destination = {'x':0.0,'y':0.0} # 目标位置
+        
+        self.current_position = {'x': 0.0, 'y': 0.0, 'yaw': 0.0}# 存储当前位姿（由 odom_callback 更新）
+
         self.odom_subscription = self.create_subscription(
             Odometry,
             'odom',
@@ -64,6 +66,8 @@ class MoveNode(Node):
         distance = math.sqrt((self.destination['x']-origin_position['x'])**2 + (self.destination['y']-origin_position['y'])**2)
         angle = math.atan2(self.destination['y']-origin_position['y'], self.destination['x']-origin_position['x'])
         self.get_logger().info(f'Moving to position x: {self.destination["x"]}, y: {self.destination["y"]}, distance: {distance}, angle: {angle}')
+
+
         #先转向
         self.move(0.0,angle,abs(angle)/angular_speed) #假设转速为angular_speed rad/s
         #再直线前进
@@ -112,7 +116,7 @@ def main(args=None):
     #destination = {'x': 1.0, 'y': 1.0}  # Example destination
     #move_node.move(-0.2, 0.5, 5.0)  # Move forward for 5 seconds
     move_node.get_logger().info(str(move_node.get_current_position()))
-    move_node.destination = {'x': 0.0, 'y': -1.0}
+    move_node.destination = {'x': 1.0, 'y': 0.0}
     move_node.position_to_move_straight()
     move_node.get_logger().info(str(move_node.get_current_position()))
 
