@@ -35,7 +35,7 @@ class voice:
         self.CHUNK = 1600  # 每次读取的帧数（1600 @16k = 0.1s）
         self.FORMAT = pyaudio.paInt16
         self.CHANNELS = 1
-        self.RATE = 44100  # 44.1kHz
+        self.RATE = 16000  # 16kHz
         self.p = pyaudio.PyAudio()
         self.stream = self.p.open(format=self.FORMAT,
                 channels=self.CHANNELS,

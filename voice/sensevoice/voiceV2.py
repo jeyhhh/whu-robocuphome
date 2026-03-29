@@ -37,6 +37,9 @@ class voice:
         self.CHANNELS = 1
         self.RATE = 16000  # 16kHz
         self.p = pyaudio.PyAudio()
+        default_dev_info = self.p.get_default_input_device_info()
+        default_rate = int(default_dev_info['defaultSampleRate'])
+        print(f"默认输入设备采样率: {default_rate} Hz")
         self.stream = self.p.open(format=self.FORMAT,
                 channels=self.CHANNELS,
                 rate=self.RATE,
@@ -97,9 +100,6 @@ class voice:
                 final_text = ''.join(total_res)
                 print({'text': final_text})
                 
-                keywords_found.append(str(self.keyword_pas(final_text)))
-                keywords_found = self.keyword_pas(final_text)
-                print({'text': final_text, 'keywords': keywords_found})
 
         except KeyboardInterrupt:
             print("停止识别，关闭音频流...")
