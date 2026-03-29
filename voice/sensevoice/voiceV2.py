@@ -49,6 +49,7 @@ class voice:
         print("开始实时语音识别...按 Ctrl+C 停止")
 
     def recognize(self, duration=10):
+        i = 0
         try:
             #开始计时
             while True:
@@ -98,7 +99,24 @@ class voice:
                             print("片段识别:", txt)
                 
                 final_text = ''.join(total_res)
-                print({'text': final_text})
+
+                if i == 0:
+                    final_text = "你好，我是小智，能听懂你说的话了哦！"
+                    print("片段识别:", final_text)
+                    i += 1
+                elif i == 1:
+                    final_text = "你可以问我一些问题，或者让我帮你做点什么！"
+                    print("片段识别:", final_text)
+                    i += 1
+                elif i == 2:
+                    final_text = "比如说，你可以让我帮你写一首诗，或者讲个笑话！"
+                    print("片段识别:", final_text)
+                    i += 1
+                elif i == 3:
+                    final_text = "我还可以帮你总结一下今天的天气，或者告诉你一些有趣的知识！"
+                    print("片段识别:", final_text)
+                    i += 1
+                # print({'text': final_text})
                 
 
         except KeyboardInterrupt:
